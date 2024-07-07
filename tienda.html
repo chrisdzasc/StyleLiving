@@ -1,0 +1,167 @@
+<!DOCTYPE html> <!-- Indica que versión de HTML estamos utilizando -->
+<html lang="es"> <!-- Es el lenguaje en el cual está creado este sitio -->
+
+<head> <!-- Aquí vamos a colocar informacion sobre el sitio, información meta -->
+    <meta charset="UTF-8"> <!-- Le dice que utilizamos caracteres especiales -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Le da cierta información en el encabezado al navegador -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>StyleLiving | Tienda</title> <!-- Nombre del sitio web -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" href="img/logo.webp" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+
+</head>
+
+<body> <!-- Es lo que se va a ver en pantalla -->
+
+    <header>
+        <h1 class="nombre-sitio">Style<span>Living</span></h1>
+    </header>
+
+    <div class="contenedor-navegacion">
+        <nav class="nav-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="tienda.html">Tienda</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Galería</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+
+    <main class="contenido-principal contenedor">
+        <h2 class="text-center">Nuestro Productos</h2>
+
+        <div class="listado-productos"> <!-- Contenedor de todos los producto -->
+            <div class="producto"> <!-- Contendeor del producto individual -->
+                <img src="img/producto1.jpg" alt="Producto 1">
+
+                <div class="texto-producto"> <!-- Contenedor de la información de cada producto -->
+                    <h3>Buró Elegante</h3>
+
+                    <p>Añade un toque de elegancia y funcionalidad a tu dormitorio. Este buró, cuidadosamente diseñado, es la combinación perfecta de estilo y practicidad, ideal para cualquier ambiente moderno.</p>
+                    <p class="precio">$250.00</p>
+
+                    <a class="btn" href="#">Agregar al Carrito</a>
+                </div> 
+            </div> 
+
+            <div class="producto"> <!-- Contendeor del producto individual -->
+                <img src="img/producto2.jpg" alt="Producto 2">
+
+                <div class="texto-producto"> <!-- Contenedor de la información de cada producto -->
+                    <h3>Sala de Estar Moderna</h3>
+
+                    <p>Transforma tu hogar con la Sala de Estar Moderna, diseñada para combinar comodidad y elegancia en un solo espacio. Esta sala es perfecta para aquellos que buscan un ambiente contemporáneo y acogedor para relajarse y recibir a sus invitados.</p>
+                    <p class="precio">$25,000.00</p>
+
+                    <a class="btn" href="#">Agregar al Carrito</a>
+                </div> 
+            </div> 
+
+            <div class="producto"> <!-- Contendeor del producto individual -->
+                <img src="img/producto3.jpg" alt="Producto 3">
+
+                <div class="texto-producto"> <!-- Contenedor de la información de cada producto -->
+                    <h3>Sillón Confort Premium</h3>
+
+                    <p>Disfruta de la máxima comodidad y estilo. Diseñado para ofrecer un soporte óptimo y un diseño elegante, este sillón es la adición perfecta para cualquier sala de estar, oficina o rincón de lectura.</p>
+                    <p class="precio">$15,000.00</p>
+
+                    <a class="btn" href="#">Agregar al Carrito</a>
+                </div> 
+            </div> 
+
+            <div class="producto"> <!-- Contendeor del producto individual -->
+                <img src="img/producto4.jpg" alt="Producto 4">
+
+                <div class="texto-producto"> <!-- Contenedor de la información de cada producto -->
+                    <h3>Sillas Elegantes</h3>
+
+                    <p>Aporta un toque de elegancia y comodidad a tu hogar con las Sillas Elegantes. Diseñadas para combinar estilo y funcionalidad, estas sillas son ideales para cualquier comedor, sala de estar o espacio de trabajo.</p>
+                    <p class="precio">$750.00</p>
+
+                    <a class="btn" href="#">Agregar al Carrito</a>
+                </div> 
+            </div> 
+
+            <div class="producto"> <!-- Contendeor del producto individual -->
+                <img src="img/producto5.jpg" alt="Producto 5">
+
+                <div class="texto-producto"> <!-- Contenedor de la información de cada producto -->
+                    <h3>Dormitorio Contemporáneo</h3>
+
+                    <p>Transforma tu espacio personal con el Dormitorio Contemporáneo, diseñado para ofrecer el equilibrio perfecto entre estilo, confort y funcionalidad. Este dormitorio es ideal para quienes buscan un refugio elegante y acogedor en su hogar.</p>
+                    <p class="precio">$3,499.99</p>
+
+                    <a class="btn" href="#">Agregar al Carrito</a>
+                </div> 
+            </div> 
+
+            <div class="producto"> <!-- Contendeor del producto individual -->
+                <img src="img/producto6.jpg" alt="Producto 6">
+
+                <div class="texto-producto"> <!-- Contenedor de la información de cada producto -->
+                    <h3>Dormitorio Rústico</h3>
+
+                    <p>Añade un toque de calidez y encanto a tu hogar con el Dormitorio Rústico. Diseñado para aquellos que aprecian la belleza de la madera natural y los detalles artesanales, este dormitorio es perfecto para crear un ambiente acogedor y relajante.</p>
+                    <p class="precio">$3,799.99</p>
+
+                    <a class="btn" href="#">Agregar al Carrito</a>
+                </div> 
+            </div> 
+        </div> 
+    </main>
+
+    <footer class="site-footer">
+
+        <div class="grid-footer contenedor">
+            <div>
+                <h3>Categorías</h3>
+    
+                <nav class="footer-menu">
+                    <a href="#">Cocina</a>
+                    <a href="#">Oficina</a>
+                    <a href="#">Jardín</a>
+                    <a href="#">Cochera</a>
+                    <a href="#">Dormitorios</a>
+    
+                </nav>
+            </div>
+    
+            <div>
+                <h3>Sobre Nosotros</h3>
+    
+                <nav class="footer-menu">
+                    <a href="#">Nuestra Historia</a>
+                    <a href="#">Misión, Visión y Valores</a>
+                    <a href="#">Carreras</a>
+                    <a href="#">Politica de Privacidad</a>
+                    <a href="#">Terminos del Servicio</a>
+    
+                </nav>
+            </div>
+    
+            <div>
+                <h3>Soporte</h3>
+    
+                <nav class="footer-menu">
+                    <a href="#">Preguntas Frecuentes</a>
+                    <a href="#">Ayuda en Línea</a>
+                    <a href="#">Confianza y Seguridad</a>
+                </nav>
+    
+            </div>
+            
+        </div>
+
+        <p class="copyright">Todos los derechos reservados, StyleLiving</p>
+
+    </footer>
+</body>
+</html>
